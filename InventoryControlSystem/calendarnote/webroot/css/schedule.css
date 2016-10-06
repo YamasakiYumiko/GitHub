@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+#schedule {
+	margin:10px;
+	border:1px solid gray;
+	font-size : 10pt;
+}
+#schedule div {
+	position : relative;
+	background-color : white;
+	padding:2px;
+}
+#schedule div.title {
+	font-size : 12pt;
+	font-weight: bold;
+	background-color : mistyrose;
+	border-bottom:1px solid gray;
+}
+#schedule div.navi {
+	border-bottom:1px solid gray;
+}
+#schedule div.navi table {
+	width : 100%;
+}
+#schedule div.navi td.date {
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+}
+#schedule div.navi td.menu {
+	text-align:right;
+	white-space:nowrap;
+}
+#schedule div.navi td.menu li {
+	display:inline;
+	margin-right:1em;
+}
+#schedule div.main table {
+	border : 1px solid gray;
+	border-collapse: collapse;
+	width:100%;
+	font-size : 8pt;
+	margin-top:5px;
+}
+#schedule div.main table th,
+#schedule div.main table td
+{
+	border : 1px solid gray;
+	vertical-align:top;
+}
+#schedule div.main table.week th,
+#schedule div.main table.week td
+{
+	width:12%;
+}
+#schedule div.main table .Sat {
+	background-color:lightcyan;
+}
+#schedule div.main table .Sun,
+#schedule div.main table .holiday
+{
+	background-color:lightpink;
+}
+
+#schedule div.main table.week thead td {
+	text-align:center;
+}
+#schedule div.main table.week tbody td {
+	padding:2px;
+	height:8em;
+}
+#schedule div.main table.month table,
+#schedule div.main table.month table td
+{
+	border : none;
+}
+#schedule div.main table.month table th {
+	border : none;
+	border-bottom : 1px solid gray;
+	text-align:center;
+}
+#schedule div.main table.month td {
+	width:14%;
+}
+#schedule div.main table.day_in_month td {
+	padding:2px;
+	height:8em;
+}
+
+#schedule div.main table.day {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color:gray;
+	border:none;
+}
+#schedule div.main table.day th,
+#schedule div.main table.day td
+{
+	background-color:white;
+	border:none;
+}
+
+#schedule div.main table.day thead th {
+	text-align:center;
+	width:1%;
+}
+#schedule div.main table.day thead td {
+	height:1em;
+}
+#schedule div.main table.day tbody td {
+	height:8em;
+	padding:2px;
+	background-color:lightyellow;
+}
+#schedule div.main table.day tbody td.empty {
+	background-color:white;
+}
+#schedule div.scope {
+	text-align:center;
+}
+#schedule div.scope li {
+	display:inline;
+	margin-right:1em;
+}

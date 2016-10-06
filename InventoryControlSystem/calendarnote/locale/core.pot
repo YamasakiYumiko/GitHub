@@ -1,0 +1,947 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  Revision: 7945 /cake/libs\cache.php
+#  Revision: 7945 /cake/libs\class_registry.php
+#  Revision: 7945 /cake/libs\configure.php
+#  Revision: 7945 /cake/libs\debugger.php
+#  Revision: 7945 /cake/libs\error.php
+#  Revision: 7945 /cake/libs\view\errors\missing_controller.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_table.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_view.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_layout.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_connection.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_scaffolddb.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_helper_file.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_helper_class.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_component_file.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_component_class.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_model.ctp
+#  Revision: 7945 /cake/libs\folder.php
+#  Revision: 7945 /cake/libs\http_socket.php
+#  Revision: 7945 /cake/libs\overloadable_php4.php
+#  Revision: 7945 /cake/libs\overloadable_php5.php
+#  Revision: 7945 /cake/libs\security.php
+#  Revision: 7945 /cake/libs\session.php
+#  Revision: 7945 /cake/libs\validation.php
+#  Revision: 7945 /cake/libs\cache\file.php
+#  Revision: 7945 /cake/libs\controller\controller.php
+#  Revision: 7945 /cake/libs\controller\components\auth.php
+#  Revision: 7945 /cake/libs\controller\scaffold.php
+#  Revision: 7945 /cake/libs\controller\components\acl.php
+#  Revision: 7945 /cake/libs\controller\components\security.php
+#  Revision: 7945 /cake/libs\model\connection_manager.php
+#  Revision: 7945 /cake/libs\model\model.php
+#  Revision: 7945 /cake/libs\model\behaviors\containable.php
+#  Revision: 7945 /cake/libs\model\behaviors\translate.php
+#  Revision: 7945 /cake/libs\model\datasources\dbo_source.php
+#  Revision: 7945 /cake/libs\model\datasources\dbo\dbo_oracle.php
+#  Revision: 7945 /cake/libs\model\datasources\dbo\dbo_mysql.php
+#  Revision: 7945 /cake/libs\view\helper.php
+#  Revision: 7945 /cake/libs\view\view.php
+#  Revision: 7945 /cake/libs\view\elements\dump.ctp
+#  Revision: 7945 /cake/libs\view\errors\error404.ctp
+#  Revision: 7945 /cake/libs\view\errors\missing_action.ctp
+#  Revision: 7945 /cake/libs\view\errors\private_action.ctp
+#  Revision: 7945 /cake/libs\view\errors\scaffold_error.ctp
+#  Revision: 7945 /cake/libs\view\helpers\form.php
+#  Revision: 7945 /cake/libs\view\scaffolds\edit.ctp
+#  Revision: 7945 /cake/libs\view\scaffolds\index.ctp
+#  Revision: 7945 /cake/libs\view\scaffolds\view.ctp
+#  Revision: 7945 /cake/libs\view\helpers\session.php
+#  Revision: 7945 /cake/libs\view\helpers\text.php
+#  Revision: 7945 /cake/libs\view\helpers\time.php
+#  Revision: 7945 /cake/libs\view\layouts\default.ctp
+#  Revision: 7945 /cake/libs\view\pages\home.ctp
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-12-24 18:09+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \cache.php:466
+msgid "Method write() not implemented in %s"
+msgstr ""
+
+#: \cache.php:476
+msgid "Method read() not implemented in %s"
+msgstr ""
+
+#: \class_registry.php:146
+msgid "(ClassRegistry::init() could not create instance of %1$s class %2$s "
+msgstr ""
+
+#: \class_registry.php:156
+msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
+msgstr ""
+
+#: \configure.php:417
+msgid "Configure::load() - no variable $config found in %s.php"
+msgstr ""
+
+#: \configure.php:649
+msgid "Can't find application core file. Please create %score.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: \configure.php:653
+msgid "Can't find application bootstrap file. Please create %sbootstrap.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: \debugger.php:556
+msgid "Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application"
+msgstr ""
+
+#: \error.php:153
+msgid "Not Found"
+msgstr ""
+
+#: \error.php:172
+#: \view\errors\missing_controller.ctp:25
+msgid "Missing Controller"
+msgstr ""
+
+#: \error.php:190
+msgid "Missing Method in Controller"
+msgstr ""
+
+#: \error.php:206
+msgid "Trying to access private method in class"
+msgstr ""
+
+#: \error.php:222
+#: \view\errors\missing_table.ctp:25
+msgid "Missing Database Table"
+msgstr ""
+
+#: \error.php:236
+msgid "Scaffold Missing Database Connection"
+msgstr ""
+
+#: \error.php:253
+#: \view\errors\missing_view.ctp:25
+msgid "Missing View"
+msgstr ""
+
+#: \error.php:269
+#: \view\errors\missing_layout.ctp:25
+msgid "Missing Layout"
+msgstr ""
+
+#: \error.php:284
+#: \view\errors\missing_connection.ctp:25
+#: \view\errors\missing_scaffolddb.ctp:25
+msgid "Missing Database Connection"
+msgstr ""
+
+#: \error.php:300
+#: \view\errors\missing_helper_file.ctp:25
+msgid "Missing Helper File"
+msgstr ""
+
+#: \error.php:316
+#: \view\errors\missing_helper_class.ctp:25
+msgid "Missing Helper Class"
+msgstr ""
+
+#: \error.php:333
+#: \view\errors\missing_component_file.ctp:25
+msgid "Missing Component File"
+msgstr ""
+
+#: \error.php:350
+#: \view\errors\missing_component_class.ctp:25
+msgid "Missing Component Class"
+msgstr ""
+
+#: \error.php:365
+#: \view\errors\missing_model.ctp:25
+msgid "Missing Model"
+msgstr ""
+
+#: \folder.php:356;377
+msgid "%s changed to %s"
+msgstr ""
+
+#: \folder.php:360;379
+msgid "%s NOT changed to %s"
+msgstr ""
+
+#: \folder.php:457
+msgid "%s is a file"
+msgstr ""
+
+#: \folder.php:467;612
+msgid "%s created"
+msgstr ""
+
+#: \folder.php:471
+msgid "%s NOT created"
+msgstr ""
+
+#: \folder.php:537;551
+msgid "%s removed"
+msgstr ""
+
+#: \folder.php:539;548
+msgid "%s NOT removed"
+msgstr ""
+
+#: \folder.php:576
+msgid "%s not found"
+msgstr ""
+
+#: \folder.php:585
+msgid "%s not writable"
+msgstr ""
+
+#: \folder.php:599
+msgid "%s copied to %s"
+msgstr ""
+
+#: \folder.php:601
+msgid "%s NOT copied to %s"
+msgstr ""
+
+#: \folder.php:616
+msgid "%s not created"
+msgstr ""
+
+#: \http_socket.php:437
+msgid "HttpSocket::decodeBody - Unknown encoding: %s. Activate quirks mode to surpress error."
+msgstr ""
+
+#: \http_socket.php:462
+msgid "HttpSocket::decodeChunkedBody - Could not parse malformed chunk. Activate quirks mode to do this."
+msgstr ""
+
+#: \http_socket.php:719
+msgid "HttpSocket::buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
+msgstr ""
+
+#: \http_socket.php:734
+msgid "HttpSocket::buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
+msgstr ""
+
+#: \overloadable_php4.php:75;132
+#: \overloadable_php5.php:50;80
+msgid "Magic method handler call__ not defined in %s"
+msgstr ""
+
+#: \security.php:174
+msgid "You cannot use an empty key for Security::cipher()"
+msgstr ""
+
+#: \session.php:467
+msgid "You must set the all Configure::write('Session.*') in core.php to use database storage"
+msgstr ""
+
+#: \validation.php:350
+msgid "You must define the $operator parameter for Validation::comparison()"
+msgstr ""
+
+#: \validation.php:373
+msgid "You must define a regular expression for Validation::custom()"
+msgstr ""
+
+#: \cache\file.php:263
+msgid "%s is not writable"
+msgstr ""
+
+#: \controller\controller.php:302
+msgid "Controller::__construct() : Can not get or parse my own class name, exiting."
+msgstr ""
+
+#: \controller\controller.php:678
+#: \controller\components\auth.php:509
+msgid "%s::isAuthorized() is not defined."
+msgstr ""
+
+#: \controller\controller.php:947
+msgid "Controller::paginate() - can't find model %1$s in controller %2$sController"
+msgstr ""
+
+#: \controller\scaffold.php:157
+msgid "Scaffold :: "
+msgstr ""
+
+#: \controller\scaffold.php:200;203
+msgid "No id set for %s::view()"
+msgstr ""
+
+#: \controller\scaffold.php:253
+msgid "updated"
+msgstr ""
+
+#: \controller\scaffold.php:256
+msgid "saved"
+msgstr ""
+
+#: \controller\scaffold.php:267;270
+msgid "Invalid id for %s::edit()"
+msgstr ""
+
+#: \controller\scaffold.php:283;286
+msgid "The %1$s has been %2$s"
+msgstr ""
+
+#: \controller\scaffold.php:293
+msgid "Please correct errors below."
+msgstr ""
+
+#: \controller\scaffold.php:332;335
+msgid "No id set for %s::delete()"
+msgstr ""
+
+#: \controller\scaffold.php:341;344
+msgid "The %1$s with id: %2$d has been deleted."
+msgstr ""
+
+#: \controller\scaffold.php:348;351
+msgid "There was an error deleting the %1$s with id: %2$d"
+msgstr ""
+
+#: \controller\components\acl.php:56
+msgid "Could not find %s."
+msgstr ""
+
+#: \controller\components\acl.php:167
+msgid "[acl_base] The AclBase class constructor has been called, or the class was instantiated. This class must remain abstract. Please refer to the Cake docs for ACL configuration."
+msgstr ""
+
+#: \controller\components\acl.php:252
+msgid "ACO permissions key %s does not exist in DbAcl::check()"
+msgstr ""
+
+#: \controller\components\acl.php:325
+msgid "DbAcl::allow() - Invalid node"
+msgstr ""
+
+#: \controller\components\auth.php:410
+msgid "Could not find $userModel. Please set AuthComponent::$userModel in beforeFilter()."
+msgstr ""
+
+#: \controller\components\auth.php:420
+msgid "Login failed. Invalid username or password."
+msgstr ""
+
+#: \controller\components\auth.php:421
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: \controller\components\auth.php:503
+msgid "Could not find %s. Set AuthComponent::$object in beforeFilter() or pass a valid object"
+msgstr ""
+
+#: \controller\components\auth.php:517
+msgid "Auth::isAuthorized() - $authorize is set to an incorrect value.  Allowed settings are: \"actions\", \"crud\", \"model\" or null."
+msgstr ""
+
+#: \controller\components\auth.php:748
+msgid "Auth::getModel() - Model is not set or could not be found"
+msgstr ""
+
+#: \controller\components\security.php:301
+msgid "SecurityComponent::loginCredentials() - Server does not support digest authentication"
+msgstr ""
+
+#: \model\connection_manager.php:109
+msgid "ConnectionManager::getDataSource - Non-existent data source %s"
+msgstr ""
+
+#: \model\connection_manager.php:177
+msgid "Unable to load DataSource file %s.php"
+msgstr ""
+
+#: \model\model.php:895
+msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: \model\model.php:2367
+msgid "This field cannot be left blank"
+msgstr ""
+
+#: \model\model.php:2675
+msgid "Invalid join model settings in %s"
+msgstr ""
+
+#: \model\behaviors\containable.php:340
+msgid "Model \"%s\" is not associated with model \"%s\""
+msgstr ""
+
+#: \model\behaviors\translate.php:61
+msgid "Datasource %s for TranslateBehavior of model %s is not connected"
+msgstr ""
+
+#: \model\behaviors\translate.php:430
+msgid "Association %s is already binded to model %s"
+msgstr ""
+
+#: \model\datasources\dbo_source.php:729
+#: \model\datasources\dbo\dbo_oracle.php:955
+msgid "SQL Error in model %s:"
+msgstr ""
+
+#: \model\datasources\dbo_source.php:2220;2277
+#: \model\datasources\dbo\dbo_mysql.php:261
+#: \model\datasources\dbo\dbo_oracle.php:1105
+msgid "Invalid schema object"
+msgstr ""
+
+#: \model\datasources\dbo\dbo_oracle.php:557
+msgid "Must specify table to operate on constraints"
+msgstr ""
+
+#: \model\datasources\dbo\dbo_oracle.php:615
+msgid "DboOracle::constraint() accepts only enable, disable, or list"
+msgstr ""
+
+#: \view\helper.php:143
+msgid "Method %1$s::%2$s does not exist"
+msgstr ""
+
+#: \view\view.php:402
+msgid "Error in view %s, got: <blockquote>%s</blockquote>"
+msgstr ""
+
+#: \view\view.php:457
+msgid "Error in layout %s, got: <blockquote>%s</blockquote>"
+msgstr ""
+
+#: \view\elements\dump.ctp:26
+msgid "Controller dump:"
+msgstr ""
+
+#: \view\errors\error404.ctp:27
+#: \view\errors\missing_action.ctp:27;31
+#: \view\errors\missing_component_class.ctp:27;31
+#: \view\errors\missing_component_file.ctp:27;31
+#: \view\errors\missing_connection.ctp:27;31
+#: \view\errors\missing_controller.ctp:27;31
+#: \view\errors\missing_helper_class.ctp:27;31
+#: \view\errors\missing_helper_file.ctp:27;31
+#: \view\errors\missing_layout.ctp:27;31
+#: \view\errors\missing_model.ctp:27;31
+#: \view\errors\missing_scaffolddb.ctp:27;31
+#: \view\errors\missing_table.ctp:27
+#: \view\errors\missing_view.ctp:27;31
+#: \view\errors\private_action.ctp:27
+#: \view\errors\scaffold_error.ctp:27
+msgid "Error"
+msgstr ""
+
+#: \view\errors\error404.ctp:28
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: \view\errors\missing_action.ctp:25
+msgid "Missing Method in %s"
+msgstr ""
+
+#: \view\errors\missing_action.ctp:28
+msgid "The action %1$s is not defined in controller %2$s"
+msgstr ""
+
+#: \view\errors\missing_action.ctp:32
+msgid "Create %1$s%2$s in file: %3$s."
+msgstr ""
+
+#: \view\errors\missing_action.ctp:49
+#: \view\errors\missing_component_class.ctp:42
+#: \view\errors\missing_component_file.ctp:42
+#: \view\errors\missing_connection.ctp:35
+#: \view\errors\missing_controller.ctp:43
+#: \view\errors\missing_helper_class.ctp:42
+#: \view\errors\missing_helper_file.ctp:42
+#: \view\errors\missing_layout.ctp:35
+#: \view\errors\missing_model.ctp:44
+#: \view\errors\missing_scaffolddb.ctp:35
+#: \view\errors\missing_table.ctp:31
+#: \view\errors\missing_view.ctp:35
+#: \view\errors\private_action.ctp:31
+#: \view\errors\scaffold_error.ctp:31
+msgid "Notice"
+msgstr ""
+
+#: \view\errors\missing_action.ctp:50
+#: \view\errors\missing_connection.ctp:36
+msgid "If you want to customize this error message, create %s."
+msgstr ""
+
+#: \view\errors\missing_component_class.ctp:28
+msgid "Component class %1$s in %2$s was not found."
+msgstr ""
+
+#: \view\errors\missing_component_class.ctp:32
+#: \view\errors\missing_component_file.ctp:32
+#: \view\errors\missing_model.ctp:32
+msgid "Create the class %s in file: %s"
+msgstr ""
+
+#: \view\errors\missing_component_class.ctp:43
+#: \view\errors\missing_component_file.ctp:43
+#: \view\errors\missing_controller.ctp:44
+#: \view\errors\missing_helper_class.ctp:43
+#: \view\errors\missing_helper_file.ctp:43
+#: \view\errors\missing_layout.ctp:36
+#: \view\errors\missing_model.ctp:45
+#: \view\errors\missing_scaffolddb.ctp:36
+#: \view\errors\missing_table.ctp:32
+#: \view\errors\missing_view.ctp:36
+#: \view\errors\private_action.ctp:32
+#: \view\errors\scaffold_error.ctp:32
+msgid "If you want to customize this error message, create %s"
+msgstr ""
+
+#: \view\errors\missing_component_file.ctp:28
+msgid "The component file was not found."
+msgstr ""
+
+#: \view\errors\missing_connection.ctp:28
+msgid "%s requires a database connection"
+msgstr ""
+
+#: \view\errors\missing_connection.ctp:32
+msgid "Confirm you have created the file : %s."
+msgstr ""
+
+#: \view\errors\missing_controller.ctp:28
+msgid "%s could not be found."
+msgstr ""
+
+#: \view\errors\missing_controller.ctp:32
+msgid "Create the class %s below in file: %s"
+msgstr ""
+
+#: \view\errors\missing_helper_class.ctp:28
+msgid "The helper class <em>%s</em> can not be found or does not exist."
+msgstr ""
+
+#: \view\errors\missing_helper_class.ctp:32
+#: \view\errors\missing_helper_file.ctp:32
+msgid "Create the class below in file: %s"
+msgstr ""
+
+#: \view\errors\missing_helper_file.ctp:28
+msgid "The helper file %s can not be found or does not exist."
+msgstr ""
+
+#: \view\errors\missing_layout.ctp:28
+msgid "The layout file %s can not be found or does not exist."
+msgstr ""
+
+#: \view\errors\missing_layout.ctp:32
+#: \view\errors\missing_scaffolddb.ctp:32
+#: \view\errors\missing_view.ctp:32
+msgid "Confirm you have created the file: %s"
+msgstr ""
+
+#: \view\errors\missing_model.ctp:28
+msgid "<em>%s</em> could not be found."
+msgstr ""
+
+#: \view\errors\missing_scaffolddb.ctp:28
+msgid "Scaffold requires a database connection"
+msgstr ""
+
+#: \view\errors\missing_table.ctp:28
+msgid "Database table %1$s for model %2$s was not found."
+msgstr ""
+
+#: \view\errors\missing_view.ctp:28
+msgid "The view for %1$s%2$s was not found."
+msgstr ""
+
+#: \view\errors\private_action.ctp:25
+msgid "Private Method in %s"
+msgstr ""
+
+#: \view\errors\private_action.ctp:28
+msgid "%s%s cannot be accessed directly."
+msgstr ""
+
+#: \view\errors\scaffold_error.ctp:25
+msgid "Scaffold Error"
+msgstr ""
+
+#: \view\errors\scaffold_error.ctp:28
+msgid "Method _scaffoldError in was not found in the controller"
+msgstr ""
+
+#: \view\helpers\form.php:275;1058
+#: \view\scaffolds\edit.ctp:29
+msgid "Submit"
+msgstr ""
+
+#: \view\helpers\form.php:406
+msgid "Error in field %s"
+msgstr ""
+
+#: \view\helpers\form.php:497
+msgid "New"
+msgstr ""
+
+#: \view\helpers\form.php:499
+#: \view\scaffolds\index.ctp:66
+#: \view\scaffolds\view.ctp:145
+msgid "Edit"
+msgstr ""
+
+#: \view\helpers\form.php:1766
+msgid "January"
+msgstr ""
+
+#: \view\helpers\form.php:1767
+msgid "February"
+msgstr ""
+
+#: \view\helpers\form.php:1768
+msgid "March"
+msgstr ""
+
+#: \view\helpers\form.php:1769
+msgid "April"
+msgstr ""
+
+#: \view\helpers\form.php:1770
+msgid "May"
+msgstr ""
+
+#: \view\helpers\form.php:1771
+msgid "June"
+msgstr ""
+
+#: \view\helpers\form.php:1772
+msgid "July"
+msgstr ""
+
+#: \view\helpers\form.php:1773
+msgid "August"
+msgstr ""
+
+#: \view\helpers\form.php:1774
+msgid "September"
+msgstr ""
+
+#: \view\helpers\form.php:1775
+msgid "October"
+msgstr ""
+
+#: \view\helpers\form.php:1776
+msgid "November"
+msgstr ""
+
+#: \view\helpers\form.php:1777
+msgid "December"
+msgstr ""
+
+#: \view\helpers\session.php:176
+msgid "You can not write to a Session from the view"
+msgstr ""
+
+#: \view\helpers\text.php:331
+msgid "(TextHelper::flay) Deprecated: the Flay library is no longer supported and will be removed in a future version."
+msgstr ""
+
+#: \view\helpers\time.php:111
+msgid "Today, %s"
+msgstr ""
+
+#: \view\helpers\time.php:113
+msgid "Yesterday, %s"
+msgstr ""
+
+#: \view\helpers\time.php:423
+msgid "on %s"
+msgstr ""
+
+#: \view\helpers\time.php:457
+msgid "%s ago"
+msgstr ""
+
+#: \view\helpers\time.php:485
+msgid "days"
+msgstr ""
+
+#: \view\helpers\time.php:427
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:428;433
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:429;434;438
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:430;435;439;442
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:443;446
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:447;450
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\helpers\time.php:453
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: \view\layouts\default.ctp:30
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \view\layouts\default.ctp:44;55
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: \view\pages\home.ctp:25
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: \view\pages\home.ctp:26
+msgid "Read the release notes and get the latest version"
+msgstr ""
+
+#: \view\pages\home.ctp:36
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: \view\pages\home.ctp:40
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: \view\pages\home.ctp:50
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: \view\pages\home.ctp:54
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: \view\pages\home.ctp:64
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: \view\pages\home.ctp:69
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: \view\pages\home.ctp:71
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: \view\pages\home.ctp:86
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: \view\pages\home.ctp:90
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: \view\pages\home.ctp:96
+msgid "Editing this Page"
+msgstr ""
+
+#: \view\pages\home.ctp:99
+msgid "To change the content of this page, edit: APP/views/pages/home.ctp.<br />\nTo change its layout, edit: APP/views/layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+#: \view\pages\home.ctp:104
+msgid "Getting Started"
+msgstr ""
+
+#: \view\pages\home.ctp:107
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: \view\pages\home.ctp:109
+msgid "More about Cake"
+msgstr ""
+
+#: \view\pages\home.ctp:111
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: \view\pages\home.ctp:114
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: \view\pages\home.ctp:118
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: \view\pages\home.ctp:119
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: \view\pages\home.ctp:120
+msgid "The Show"
+msgstr ""
+
+#: \view\pages\home.ctp:121
+msgid "The Show is a weekly live internet radio broadcast where we discuss CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
+msgstr ""
+
+#: \view\pages\home.ctp:122
+msgid "The Bakery"
+msgstr ""
+
+#: \view\pages\home.ctp:123
+msgid "Everything CakePHP"
+msgstr ""
+
+#: \view\pages\home.ctp:124
+msgid "Book Store"
+msgstr ""
+
+#: \view\pages\home.ctp:125
+msgid "Recommended Software Books"
+msgstr ""
+
+#: \view\pages\home.ctp:126
+msgid "CakeSchwag"
+msgstr ""
+
+#: \view\pages\home.ctp:127
+msgid "Get your own CakePHP gear - Doughnate to Cake"
+msgstr ""
+
+#: \view\pages\home.ctp:128
+msgid "CakePHP"
+msgstr ""
+
+#: \view\pages\home.ctp:129
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: \view\pages\home.ctp:130
+msgid "CakePHP Manual"
+msgstr ""
+
+#: \view\pages\home.ctp:131
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: \view\pages\home.ctp:132
+msgid "CakePHP API"
+msgstr ""
+
+#: \view\pages\home.ctp:133
+msgid "Docblock Your Best Friend"
+msgstr ""
+
+#: \view\pages\home.ctp:134
+msgid "CakeForge"
+msgstr ""
+
+#: \view\pages\home.ctp:135
+msgid "Open Development for CakePHP"
+msgstr ""
+
+#: \view\pages\home.ctp:136
+msgid "CakePHP Trac"
+msgstr ""
+
+#: \view\pages\home.ctp:137
+msgid "For the Development of CakePHP (Tickets, SVN browser, Roadmap, Changelogs)"
+msgstr ""
+
+#: \view\pages\home.ctp:138
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: \view\pages\home.ctp:139
+msgid "Community mailing list"
+msgstr ""
+
+#: \view\pages\home.ctp:141
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: \view\scaffolds\edit.ctp:35
+#: \view\scaffolds\index.ctp:67
+#: \view\scaffolds\view.ctp:146
+msgid "Delete"
+msgstr ""
+
+#: \view\scaffolds\edit.ctp:35
+#: \view\scaffolds\index.ctp:67
+#: \view\scaffolds\view.ctp:58;146
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: \view\scaffolds\edit.ctp:37
+msgid "List"
+msgstr ""
+
+#: \view\scaffolds\edit.ctp:43
+#: \view\scaffolds\index.ctp:89
+#: \view\scaffolds\view.ctp:59;66
+msgid "List %s"
+msgstr ""
+
+#: \view\scaffolds\edit.ctp:44
+#: \view\scaffolds\index.ctp:90
+#: \view\scaffolds\view.ctp:60;67;155
+msgid "New %s"
+msgstr ""
+
+#: \view\scaffolds\index.ctp:37
+msgid "Actions"
+msgstr ""
+
+#: \view\scaffolds\index.ctp:65
+#: \view\scaffolds\view.ctp:144
+msgid "View"
+msgstr ""
+
+#: \view\scaffolds\index.ctp:77
+msgid "previous"
+msgstr ""
+
+#: \view\scaffolds\index.ctp:79
+msgid "next"
+msgstr ""
+
+#: \view\scaffolds\view.ctp:26
+msgid "View %s"
+msgstr ""
+
+#: \view\scaffolds\view.ctp:57;98
+msgid "Edit %s"
+msgstr ""
+
+#: \view\scaffolds\view.ctp:58
+msgid "Delete %s"
+msgstr ""
+
+#: \view\scaffolds\view.ctp:79;118
+msgid "Related %s"
+msgstr ""
+

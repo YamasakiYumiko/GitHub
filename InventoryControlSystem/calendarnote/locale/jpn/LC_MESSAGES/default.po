@@ -1,0 +1,328 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  Revision: 7690 /calendarnote\views\layouts\default.ctp
+#  Revision: 7945 /calendarnote\webroot\test.php
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-01-10 19:51+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \views\helpers\app_form.php:110
+msgid "Delete"
+msgstr "削除する"
+
+#: \views\helpers\app_form.php:111
+msgid "Are you sure you want to delete"
+msgstr "削除してもよろしいですか？"
+
+#: \views\helpers\app_form.php:124
+msgid "D, M jS Y, H:i"
+msgstr "Y年m月d日 H:i"
+
+#: \views\helpers\app_form.php:181
+msgid "Permission"
+msgstr "権限"
+msgid "Schedules"
+msgstr "予定"
+msgid "/*"
+msgstr "全て"
+msgid "/Index"
+msgstr "一覧"
+msgid "/Add"
+msgstr "追加"
+msgid "/Edit"
+msgstr "変更"
+msgid "/Delete"
+msgstr "削除"
+msgid "/View"
+msgstr "閲覧"
+
+
+#: \views\helpers\schedule_table.php:198
+msgid "Last month"
+msgstr "先月"
+
+#: \views\helpers\schedule_table.php:202
+msgid "This month"
+msgstr "今月"
+
+#: \views\helpers\schedule_table.php:206
+msgid "Next month"
+msgstr "翌月"
+
+#: \views\helpers\schedule_table.php:216
+msgid "Last week"
+msgstr "先週"
+
+#: \views\helpers\schedule_table.php:220;242
+msgid "Previous day"
+msgstr "前日"
+
+#: \views\helpers\schedule_table.php:224
+msgid "This week"
+msgstr "今週"
+
+#: \views\helpers\schedule_table.php:228;250
+msgid "Next day"
+msgstr "翌日"
+
+#: \views\helpers\schedule_table.php:232
+msgid "Next week"
+msgstr "翌週"
+
+#: \views\helpers\schedule_table.php:246
+msgid "Today"
+msgstr "今日"
+
+#: \views\helpers\schedule_table.php:288
+msgid "Personal Schedule"
+msgstr "私のスケジュール"
+
+#: \views\layouts\default.ctp:32
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \views\layouts\default.ctp:49;60
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: \views\layouts\default.ctp:50
+msgid "logon:%s"
+msgstr "%sさん"
+msgid "Logout"
+msgstr "ログアウト"
+
+#: \views\pages\home.ctp:12
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: \views\pages\home.ctp:16
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: \views\pages\home.ctp:26
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: \views\pages\home.ctp:30
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: \views\pages\home.ctp:40
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: \views\pages\home.ctp:45
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: \views\pages\home.ctp:47
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: \views\pages\home.ctp:62
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:66
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:72
+msgid "Editing this Page"
+msgstr ""
+
+#: \views\pages\home.ctp:75
+msgid "To change the content of this page, edit: %s\n\t\tTo change its layout, edit: %s\n\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: \views\schedules\index.ctp:2
+msgid "Schedule"
+msgstr "予定"
+
+#: \views\schedules\index.ctp:5
+msgid "F j, Y"
+msgstr "Y年m月d日"
+
+#: \views\schedules\index.ctp:11
+msgid "Add new schedule"
+msgstr "予定を登録する"
+
+#: \views\schedules\index.ctp:17
+msgid "Weeky"
+msgstr "週予定"
+
+#: \views\schedules\index.ctp:18
+msgid "Monthly"
+msgstr "月予定"
+
+#: \views\schedules\index.ctp:19
+msgid "Daily"
+msgstr "日予定"
+
+#: \views\schedules\scaffold.edit.ctp:13
+msgid "Save"
+msgstr "登録する"
+msgid "Preview"
+msgstr "確認する"
+msgid "From"
+msgstr "開始日時"
+msgid "To"
+msgstr "終了日時"
+msgid "Title"
+msgstr "タイトル"
+msgid "Contents"
+msgstr "備考"
+msgid "January"
+msgstr "1月"
+msgid "February"
+msgstr "2月"
+msgid "March"
+msgstr "3月"
+msgid "April"
+msgstr "4月"
+msgid "May"
+msgstr "5月"
+msgid "June"
+msgstr "6月"
+msgid "July"
+msgstr "7月"
+msgid "August"
+msgstr "8月"
+msgid "September"
+msgstr "9月"
+msgid "October"
+msgstr "10月"
+msgid "November"
+msgstr "11月"
+msgid "December"
+msgstr "12月"
+msgid "(Sun)"
+msgstr "(日)"
+msgid "(Mon)"
+msgstr "(月)"
+msgid "(Tue)"
+msgstr "(火)"
+msgid "(Wed)"
+msgstr "(水)"
+msgid "(Thu)"
+msgstr "(木)"
+msgid "(Fri)"
+msgstr "(金)"
+msgid "(Sat)"
+msgstr "(土)"
+msgid "Participant"
+msgstr "参加者"
+
+#: \webroot\test.php:99
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: \app_model.php:15
+msgid "Please be sure to input."
+msgstr "必ず入力してください"
+msgid "date_format' => 'Please input in the date format."
+msgstr "日付フォーマットで入力してください"
+msgid "Start time should specify the past from finish time."
+msgstr "開始日時は終了日時より前でなければなりません"
+msgid "There are already other schedules."
+msgstr "既に予定が登録されています"
+msgid "Please input by %2$d or more characters."
+msgstr "%2$d文字以上で入力してください。"
+msgid "Please input in mail address form."
+msgstr "メールアドレス形式で入力してください。"
+msgid "Please input a half-width alphanumeric character."
+msgstr "半角英数字を入力してください。"
+msgid "Invalid Password Confirmation."
+msgstr "確認用パスワードと一致しません"
+msgid "Please be sure to select."
+msgstr "必ず選択してください"
+msgid "Please select a participant."
+msgstr "参加者を選択してください"
+
+#: \views\groups\scaffold.index.ctp
+msgid "Groups"
+msgstr "グループ"
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr "ページ( %page% / %pages% ), 表示件数 %current%件, 全件数 %count%, %start% ～ %end% 件目まで表示中"
+msgid "Group Name"
+msgstr "グループ名"
+msgid "New Group"
+msgstr "グループを登録する"
+
+#: \views\groups\scaffold.edit.ctp
+msgid "Memo"
+msgstr "メモ"
+msgid "The same group name exists."
+msgstr "同一のグループ名が存在します"
+
+#: \views\groups\scaffold.view.ctp
+msgid "Group"
+msgstr "グループ"
+
+#: \views\users\scaffold.index.ctp
+msgid "Users"
+msgstr "ユーザ"
+msgid "Login Name"
+msgstr "ログイン名"
+msgid "Fullname"
+msgstr "ユーザ名"
+msgid "Email"
+msgstr "メールアドレス"
+msgid "Tel"
+msgstr "電話番号"
+msgid "New User"
+msgstr "ユーザを登録する"
+
+#: \views\users\scaffold.edit.ctp
+msgid "Password"
+msgstr "パスワード"
+msgid "Password (for a check)"
+msgstr "パスワード（確認用）"
+
+#: \views\users\scaffold.view.ctp
+msgid "User"
+msgstr "ユーザ"
+
+#: \controllers\groups_controller.php:12
+msgid "Can not delete because some user belongs to the group."
+msgstr "所属しているユーザがいるため、削除できません"
+msgid "Are you sure you want to delete # %s?"
+msgstr "本当に削除してもよろしいですか？"
+
+#: \controllers\users_controller.php:14
+msgid "Can not delete because this is last user."
+msgstr "最後のユーザなので、削除できません"
+
+msgid "The user and the group are already registered and it is in the state which can be running."
+msgstr "ユーザやグループが登録されているので、実行可能な状態です。"
+msgid "When you want to re-installation, please drop/create a database by the Schema command once."
+msgstr "再インストールする場合は、Schemaコマンドを使ってデータベースを再構成してください。"
+msgid "Are you sure you want to save ?"
+msgstr "保存してもよろしいですか？"
+msgid "Installation All complete."
+msgstr "インストールが完了しました"
+msgid "Installation was interrupted."
+msgstr "インストールを中断しました"
+msgid "Initialization of ACL was completed."
+msgstr "ACLの初期化が完了しました。"
+
+#: \views\elements\action_menu.ctp:
+msgid "Private Settings"
+msgstr "個人設定"
+msgid "Schedule Management"
+msgstr "予定"
+msgid "User Management"
+msgstr "ユーザ管理"
+msgid "Group Management"
+msgstr "グループ管理"

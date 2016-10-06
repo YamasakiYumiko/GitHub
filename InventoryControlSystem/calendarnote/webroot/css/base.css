@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+body {
+	background-color:ivory;
+}
+
+form table.form {
+	background-color:white;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	margin:5px;
+}
+form table.form th,
+form table.form td
+{
+	border: 1px solid gray;
+	padding:5px;
+}
+form table.form th {
+	background-color:lightgrey;
+}
+form div.submit,
+form table.form td.buttons
+{
+	text-align:center;
+}
+form table.form td.buttons input {
+	margin-left:1em;
+	margin-right:1em;
+}
+form div.submit input {
+	display:inline;
+}
+form div.datetime select {
+	margin-left:0.25em;
+	margin-right:0.25em;
+}
+form table.form td .select .checkbox {
+	display:inline;
+}
+form table.form tr.required th {
+	font-weight:bold;
+}
+form table.form td.permission fieldset {
+	border : 1px solid gray;
+	margin : 10px;
+	padding : 5px;
+}
+form table.form td.permission fieldset div {
+	margin-left : 10px;
+	display:inline;
+}
+a {
+	color:blue;
+}
+div.error-message {
+	margin-top:2px;
+	color: red;
+	padding-left:1em;
+	font-size:90%;
+}
+/* scaffold.index */
+div.index {
+	position : relative;
+	background-color : white;
+	margin:2px;
+	border:1px solid gray;
+	font-size : 8pt;
+}
+div.index h2 {
+	font-size : 12pt;
+	font-weight: bold;
+	background-color : mistyrose;
+	border-bottom:1px solid gray;
+}
+div.index p {
+	margin-left : 1em;
+}
+div.index table {
+	border : 1px solid gray;
+	border-collapse: collapse;
+	margin-top : 1em;
+	margin-left : 1em;
+}
+div.index table th,
+div.index table td
+{
+	border : 1px solid gray;
+	vertical-align:top;
+	padding:3px;
+}
+div.index div.paging {
+	margin-left : 1em;
+}
+div.index div.paging div {
+	display:inline;
+}
+div.actions ul {
+	margin-left : 1em;
+	padding: 0;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+}
+
+/* scaffold.view */
+div.view {
+	position : relative;
+	background-color : white;
+	margin:2px;
+	border:1px solid gray;
+	font-size : 8pt;
+}
+div.view h2 {
+	font-size : 12pt;
+	font-weight: bold;
+	background-color : mistyrose;
+	border-bottom:1px solid gray;
+}
+div.view table {
+	background-color:white;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	margin:5px;
+}
+div.view table th,
+div.view table td
+{
+	border: 1px solid gray;
+	padding:5px;
+}
+div.view table th {
+	background-color:lightgrey;
+}
+
+div#header {
+	background-color: #660000;
+	color : floralwhite;
+}
+div#header h1 {
+	font-size:300%;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-weight: bold;
+}
+div#header h1 a {
+	color : floralwhite;
+	text-decoration: none;
+	margin : 10px;
+}
+div#header p.userprofile {
+	float:right;
+	margin-top:-1.5em;
+}
+div#header p.userprofile a {
+	color : floralwhite;
+}
+div#content {
+	margin-left:auto;
+	margin-right:auto;
+	padding :10px 5px 0 5px;
+}
+div#flashMessage, div#authMessage {
+	font-weight:bold;
+	color:red;
+}
+div#footer {
+	text-align:right;
+	margin :10px;
+	border-top : 1px solid #660000;
+	padding-top:5px;
+}
+form#UserLoginForm table.form {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top : 3em;
+	margin-bottom : 3em;
+}

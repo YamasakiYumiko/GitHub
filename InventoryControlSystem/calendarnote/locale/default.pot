@@ -1,0 +1,147 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  Revision: 7690 /calendarnote\views\layouts\default.ctp
+#  Revision: 7945 /calendarnote\webroot\test.php
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-01-10 19:51+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \views\helpers\app_form.php:110
+msgid "Delete"
+msgstr ""
+
+#: \views\helpers\app_form.php:111
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:198
+msgid "Last month"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:202
+msgid "This month"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:206
+msgid "Next month"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:216
+msgid "Last week"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:220;242
+msgid "Previous day"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:224
+msgid "This week"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:228;250
+msgid "Next day"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:232
+msgid "Next week"
+msgstr ""
+
+#: \views\helpers\schedule_table.php:246
+msgid "Today"
+msgstr ""
+
+#: \views\layouts\default.ctp:32
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \views\layouts\default.ctp:49;60
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: \views\pages\home.ctp:12
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: \views\pages\home.ctp:16
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: \views\pages\home.ctp:26
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: \views\pages\home.ctp:30
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: \views\pages\home.ctp:40
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: \views\pages\home.ctp:45
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: \views\pages\home.ctp:47
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: \views\pages\home.ctp:62
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:66
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:72
+msgid "Editing this Page"
+msgstr ""
+
+#: \views\pages\home.ctp:75
+msgid "To change the content of this page, edit: %s\n\t\tTo change its layout, edit: %s\n\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: \views\schedules\index.ctp:2
+msgid "Schedule"
+msgstr ""
+
+#: \views\schedules\index.ctp:5
+msgid "F j, Y"
+msgstr ""
+
+#: \views\schedules\index.ctp:11
+msgid "Add new schedule"
+msgstr ""
+
+#: \views\schedules\index.ctp:17
+msgid "Weeky"
+msgstr ""
+
+#: \views\schedules\index.ctp:18
+msgid "Monthly"
+msgstr ""
+
+#: \views\schedules\index.ctp:19
+msgid "Daily"
+msgstr ""
+
+#: \views\schedules\scaffold.edit.ctp:13
+msgid "Save"
+msgstr ""
+
+#: \webroot\test.php:99
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

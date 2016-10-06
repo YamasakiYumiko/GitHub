@@ -1,0 +1,695 @@
+2008-12-15 11:53:12 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'end' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 521]
+2008-12-15 11:53:31 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'end' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 521]
+2008-12-15 11:54:01 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'end' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 521]
+2008-12-20 21:25:08 Warning: Warning (512): Method ScheduleTableHelper::setHolidays does not exist in [CORE\cake\libs\view\helper.php, line 148]
+2008-12-23 14:57:36 Warning: Warning (2): mysql_connect() [<a href='http://php.net/function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'cakesharing'@'localhost' (using password: YES) in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 117]
+2008-12-23 14:57:36 Warning: Warning (2): mysql_select_db(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 122]
+2008-12-23 14:57:36 Warning: Warning (2): mysql_get_server_info(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 130]
+2008-12-23 14:57:36 Warning: Warning (2): mysql_query(): supplied argument is not a valid MySQL-Link resource in [CORE\cake\libs\model\datasources\dbo\dbo_mysql.php, line 154]
+2008-12-23 15:57:57 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:13:11 Warning: Warning (2): Illegal offset type in [APP\app_model.php, line 43]
+2008-12-23 16:13:11 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:13:31 Warning: Warning (2): Illegal offset type in [APP\app_model.php, line 44]
+2008-12-23 16:13:31 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:13:56 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:20:23 Warning: Warning (2): strtotime() expects parameter 1 to be string, array given in [APP\app_model.php, line 45]
+2008-12-23 16:20:23 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:21:26 Warning: Warning (2): strtotime() expects parameter 1 to be string, array given in [APP\app_model.php, line 47]
+2008-12-23 16:21:26 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:21:56 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:23:27 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:23:44 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:24:08 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:24:21 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:24:35 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:25:29 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:26:14 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 16:26:37 Warning: Warning (2): preg_match() [<a href='http://php.net/function.preg-match'>function.preg-match</a>]: Delimiter must not be alphanumeric or backslash in [CORE\cake\libs\model\model.php, line 2282]
+2008-12-23 17:31:56 Warning: Warning (2): sprintf() [<a href='http://php.net/function.sprintf'>function.sprintf</a>]: Too few arguments in [APP\app_model.php, line 81]
+2008-12-23 17:32:31 Warning: Warning (2): sprintf() [<a href='http://php.net/function.sprintf'>function.sprintf</a>]: Too few arguments in [APP\app_model.php, line 81]
+2008-12-23 17:33:13 Warning: Warning (2): sprintf() [<a href='http://php.net/function.sprintf'>function.sprintf</a>]: Too few arguments in [APP\app_model.php, line 81]
+2008-12-26 17:05:32 Error: DboMysql Object
+(
+    [description] => MySQL DBO Driver
+    [_baseConfig] => Array
+        (
+            [persistent] => 1
+            [host] => localhost
+            [login] => root
+            [password] => 
+            [database] => cake
+            [port] => 3306
+            [connect] => mysql_pconnect
+        )
+
+    [startQuote] => `
+    [endQuote] => `
+    [_useAlias] => 1
+    [_commands] => Array
+        (
+            [begin] => START TRANSACTION
+            [commit] => COMMIT
+            [rollback] => ROLLBACK
+        )
+
+    [columns] => Array
+        (
+            [primary_key] => Array
+                (
+                    [name] => NOT NULL AUTO_INCREMENT
+                )
+
+            [string] => Array
+                (
+                    [name] => varchar
+                    [limit] => 255
+                )
+
+            [text] => Array
+                (
+                    [name] => text
+                )
+
+            [integer] => Array
+                (
+                    [name] => int
+                    [limit] => 11
+                    [formatter] => intval
+                )
+
+            [float] => Array
+                (
+                    [name] => float
+                    [formatter] => floatval
+                )
+
+            [datetime] => Array
+                (
+                    [name] => datetime
+                    [format] => Y-m-d H:i:s
+                    [formatter] => date
+                )
+
+            [timestamp] => Array
+                (
+                    [name] => timestamp
+                    [format] => Y-m-d H:i:s
+                    [formatter] => date
+                )
+
+            [time] => Array
+                (
+                    [name] => time
+                    [format] => H:i:s
+                    [formatter] => date
+                )
+
+            [date] => Array
+                (
+                    [name] => date
+                    [format] => Y-m-d
+                    [formatter] => date
+                )
+
+            [binary] => Array
+                (
+                    [name] => blob
+                )
+
+            [boolean] => Array
+                (
+                    [name] => tinyint
+                    [limit] => 1
+                )
+
+        )
+
+    [index] => Array
+        (
+            [PRI] => primary
+            [MUL] => index
+            [UNI] => unique
+        )
+
+    [alias] => AS 
+    [fieldCache] => Array
+        (
+        )
+
+    [__bypass] => 
+    [__sqlOps] => Array
+        (
+            [0] => like
+            [1] => ilike
+            [2] => or
+            [3] => not
+            [4] => in
+            [5] => between
+            [6] => regexp
+            [7] => similar to
+        )
+
+    [connected] => 1
+    [fullDebug] => 1
+    [error] => 
+    [affected] => 
+    [numRows] => 
+    [took] => 
+    [_result] => 
+    [_queriesCnt] => 0
+    [_queriesTime] => 
+    [_queriesLog] => Array
+        (
+        )
+
+    [_queriesLogMax] => 200
+    [_queryCache] => Array
+        (
+        )
+
+    [__descriptions] => Array
+        (
+        )
+
+    [_sources] => 
+    [connection] => Resource id #422
+    [config] => Array
+        (
+            [persistent] => 
+            [host] => localhost
+            [login] => cakesharing
+            [password] => cakesharing
+            [database] => cakesharing
+            [port] => 3306
+            [connect] => mysql_pconnect
+            [driver] => mysql
+            [prefix] => test_suite_
+        )
+
+    [configKeyName] => test_suite
+    [_transactionStarted] => 
+    [cacheSources] => 
+    [_log] => 
+)
+
+2008-12-26 17:06:02 Error: DboMysql Object
+(
+    [description] => MySQL DBO Driver
+    [_baseConfig] => Array
+        (
+            [persistent] => 1
+            [host] => localhost
+            [login] => root
+            [password] => 
+            [database] => cake
+            [port] => 3306
+            [connect] => mysql_pconnect
+        )
+
+    [startQuote] => `
+    [endQuote] => `
+    [_useAlias] => 1
+    [_commands] => Array
+        (
+            [begin] => START TRANSACTION
+            [commit] => COMMIT
+            [rollback] => ROLLBACK
+        )
+
+    [columns] => Array
+        (
+            [primary_key] => Array
+                (
+                    [name] => NOT NULL AUTO_INCREMENT
+                )
+
+            [string] => Array
+                (
+                    [name] => varchar
+                    [limit] => 255
+                )
+
+            [text] => Array
+                (
+                    [name] => text
+                )
+
+            [integer] => Array
+                (
+                    [name] => int
+                    [limit] => 11
+                    [formatter] => intval
+                )
+
+            [float] => Array
+                (
+                    [name] => float
+                    [formatter] => floatval
+                )
+
+            [datetime] => Array
+                (
+                    [name] => datetime
+                    [format] => Y-m-d H:i:s
+                    [formatter] => date
+                )
+
+            [timestamp] => Array
+                (
+                    [name] => timestamp
+                    [format] => Y-m-d H:i:s
+                    [formatter] => date
+                )
+
+            [time] => Array
+                (
+                    [name] => time
+                    [format] => H:i:s
+                    [formatter] => date
+                )
+
+            [date] => Array
+                (
+                    [name] => date
+                    [format] => Y-m-d
+                    [formatter] => date
+                )
+
+            [binary] => Array
+                (
+                    [name] => blob
+                )
+
+            [boolean] => Array
+                (
+                    [name] => tinyint
+                    [limit] => 1
+                )
+
+        )
+
+    [index] => Array
+        (
+            [PRI] => primary
+            [MUL] => index
+            [UNI] => unique
+        )
+
+    [alias] => AS 
+    [fieldCache] => Array
+        (
+        )
+
+    [__bypass] => 
+    [__sqlOps] => Array
+        (
+            [0] => like
+            [1] => ilike
+            [2] => or
+            [3] => not
+            [4] => in
+            [5] => between
+            [6] => regexp
+            [7] => similar to
+        )
+
+    [connected] => 1
+    [fullDebug] => 1
+    [error] => 
+    [affected] => 
+    [numRows] => 
+    [took] => 
+    [_result] => 
+    [_queriesCnt] => 0
+    [_queriesTime] => 
+    [_queriesLog] => Array
+        (
+        )
+
+    [_queriesLogMax] => 200
+    [_queryCache] => Array
+        (
+        )
+
+    [__descriptions] => Array
+        (
+        )
+
+    [_sources] => 
+    [connection] => Resource id #424
+    [config] => Array
+        (
+            [persistent] => 
+            [host] => localhost
+            [login] => cakesharing
+            [password] => cakesharing
+            [database] => cakesharing
+            [port] => 3306
+            [connect] => mysql_pconnect
+            [driver] => mysql
+            [prefix] => test_suite_
+        )
+
+    [configKeyName] => test_suite
+    [_transactionStarted] => 
+    [cacheSources] => 
+    [_log] => 
+)
+
+2008-12-26 17:07:37 Error: Array
+(
+    [id] => Array
+        (
+            [type] => integer
+            [null] => 
+            [default] => 
+            [length] => 20
+            [key] => primary
+        )
+
+    [from] => Array
+        (
+            [type] => datetime
+            [null] => 
+            [default] => 
+            [length] => 
+        )
+
+    [to] => Array
+        (
+            [type] => datetime
+            [null] => 
+            [default] => 
+            [length] => 
+        )
+
+    [title] => Array
+        (
+            [type] => string
+            [null] => 
+            [default] => 
+            [length] => 100
+        )
+
+    [contents] => Array
+        (
+            [type] => text
+            [null] => 
+            [default] => 
+            [length] => 
+        )
+
+    [created] => Array
+        (
+            [type] => datetime
+            [null] => 1
+            [default] => 
+            [length] => 
+        )
+
+    [updated] => Array
+        (
+            [type] => datetime
+            [null] => 1
+            [default] => 
+            [length] => 
+        )
+
+)
+
+2008-12-26 17:08:12 Error: schedules
+2008-12-26 17:08:53 Error: schedules
+2009-01-10 18:46:06 Warning: Warning (2): preg_match() expects parameter 2 to be string, array given in [CORE\cake\libs\view\helpers\form.php, line 1108]
+2009-01-15 16:44:36 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #1 is not an array in [APP\app_controller.php, line 28]
+2009-01-15 16:46:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\app_controller.php:30) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-15 16:47:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\app_controller.php:31) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-15 16:57:38 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\security.php:174) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-15 16:57:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\security.php:176) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-15 16:58:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\security.php:181) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-17 14:39:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\app_model.php:62) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-21 12:24:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\users_controller.php:10) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-24 19:55:32 Warning: Warning (2): Missing argument 2 for AppController::_beforeConfirm(), called in C:\CalendarNote\app\calendarnote\controllers\users_controller.php on line 17 and defined in [APP\app_controller.php, line 16]
+2009-01-24 20:31:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\auth.php:841) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-24 20:31:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\auth.php:841) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-24 20:37:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\auth.php:841) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-24 20:38:45 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\libs\controller\components\auth.php:841) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-24 22:21:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:267) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-27 15:17:56 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:17:56 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:20:26 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:20:26 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:28:17 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:28:17 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:30:33 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:30:33 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:30:47 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:30:47 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:30:57 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:30:57 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:31:41 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:31:41 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-27 15:31:58 Warning: Warning (2): array_key_exists() [<a href='http://php.net/function.array-key-exists'>function.array-key-exists</a>]: The first argument should be either a string or an integer in [APP\app_model.php, line 68]
+2009-01-27 15:31:58 Warning: Warning (2): Illegal offset type in isset or empty in [CORE\cake\libs\i18n.php, line 175]
+2009-01-31 17:35:57 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'group_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 17:35:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:36:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:37:16 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'group_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 17:37:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:37:30 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Group.id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 17:37:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:41:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:41:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:44:28 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:45:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:47:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:47:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:47:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:47:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:55:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:56:44 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'countByGroup' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 17:56:44 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:57:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:57:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:58:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 17:58:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:00:18 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Group.group_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 18:00:18 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:00:41 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'users_groups.group_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 18:00:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:01:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:02:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:02:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:04:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:05:03 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Group.id' in 'field list'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 18:05:03 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:15:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:12) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:36:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:36:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:36:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 18:36:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 19:00:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hasUser' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-31 19:00:54 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 19:05:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-31 19:05:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:11) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-01 16:01:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\users_controller.php:26) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-07 15:28:03 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 145]
+2009-02-07 15:28:50 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 146]
+2009-02-07 15:58:19 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 146]
+2009-02-07 15:58:32 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 146]
+2009-02-07 16:00:33 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 146]
+2009-02-07 16:02:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 145]
+2009-02-07 16:03:05 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 145]
+2009-02-07 16:04:57 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 145]
+2009-02-07 16:11:23 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\app_form.php, line 146]
+2009-02-07 20:19:53 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Participant.user_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-07 20:19:53 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 68]
+2009-02-07 20:19:54 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Participant.user_id' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-07 20:19:54 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 68]
+2009-02-07 20:24:11 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'unbind' at line 1</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-07 20:25:02 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE\cake\libs\model\model.php, line 554]
+2009-02-08 15:10:02 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Aro.id' in 'field list'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-08 15:10:02 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE\cake\libs\model\model.php, line 2160]
+2009-02-08 15:14:39 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Aro.id' in 'field list'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-08 15:14:39 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE\cake\libs\model\model.php, line 2160]
+2009-02-08 15:29:59 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column '{n}.Permission' in 'field list'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-08 15:36:38 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'Aro.forein_key' in 'where clause'</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-02-11 14:37:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\groups_controller.php:25) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 14:39:09 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\controllers\groups_controller.php, line 34]
+2009-02-11 14:39:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 15:30:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\components\app_auth.php:45) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 15:54:42 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Pages/display in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 15:54:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 15:55:15 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Pages/display in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 15:55:15 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 17:02:25 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Users/logout in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 17:02:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 17:02:40 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Users/logout in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 17:02:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 17:27:49 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-02-11 17:27:49 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Schedules/index in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 17:27:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 17:32:42 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-02-11 17:32:42 Warning: Warning (512): DbAcl::allow() - 無効なノード in [CORE\cake\libs\controller\components\acl.php, line 325]
+2009-02-11 17:32:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 17:33:17 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-02-11 17:33:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 18:13:29 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-02-11 18:13:29 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 1
+)
+
+Aco: Schedules/index in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-11 18:13:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 20:02:47 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [CORE\cake\libs\model\db_acl.php, line 191]
+2009-02-11 20:02:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-11 20:25:21 Warning: Warning (2): Missing argument 2 for ScheduleTableHelper::group_select(), called in C:\CalendarNote\app\calendarnote\views\schedules\index.ctp on line 5 and defined in [APP\views\helpers\schedule_table.php, line 262]
+2009-02-11 20:25:21 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 265]
+2009-02-11 20:25:21 Warning: Warning (512): メソッド ScheduleTableHelper::input が存在しません in [CORE\cake\libs\view\helper.php, line 143]
+2009-02-11 20:26:31 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 265]
+2009-02-11 20:26:31 Warning: Warning (512): メソッド ScheduleTableHelper::input が存在しません in [CORE\cake\libs\view\helper.php, line 143]
+2009-02-11 20:27:10 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 265]
+2009-02-11 20:27:10 Warning: Warning (512): メソッド ScheduleTableHelper::input が存在しません in [CORE\cake\libs\view\helper.php, line 143]
+2009-02-11 20:27:30 Warning: Warning (512): メソッド ScheduleTableHelper::input が存在しません in [CORE\cake\libs\view\helper.php, line 143]
+2009-02-11 22:43:42 Warning: Warning (2): extract() [<a href='http://php.net/function.extract'>function.extract</a>]: First argument should be an array in [APP\views\helpers\schedule_table.php, line 34]
+2009-02-11 22:43:42 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 45]
+2009-02-11 23:00:09 Warning: Warning (2): extract() [<a href='http://php.net/function.extract'>function.extract</a>]: First argument should be an array in [APP\views\helpers\schedule_table.php, line 65]
+2009-02-11 23:00:09 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 78]
+2009-02-11 23:00:16 Warning: Warning (2): extract() [<a href='http://php.net/function.extract'>function.extract</a>]: First argument should be an array in [APP\views\helpers\schedule_table.php, line 65]
+2009-02-11 23:00:16 Warning: Warning (2): Invalid argument supplied for foreach() in [APP\views\helpers\schedule_table.php, line 78]
+2009-02-12 11:38:10 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 5
+)
+
+Aco: UserProfiles/edit in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-12 11:38:10 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-12 11:38:51 Warning: Warning (512): DbAcl::check() - Failed ARO/ACO node lookup in permissions check.  Node references:
+Aro: Array
+(
+    [model] => Group
+    [foreign_key] => 5
+)
+
+Aco: UserProfiles/edit in [CORE\cake\libs\controller\components\acl.php, line 239]
+2009-02-12 11:38:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\calendarnote\controllers\components\app_auth.php:47) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-12 12:11:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-12 12:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 16:50:45 Warning: Warning (2): Missing argument 2 for UserProfilesController::allowAction(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 16:53:31 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 16:53:45 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 16:54:43 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 16:58:15 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 16:58:45 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [CORE\cake\libs\object.php, line 92]
+2009-02-14 16:58:45 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in [CORE\cake\libs\object.php, line 98]
+2009-02-14 16:58:46 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #3 is not an array in [CORE\cake\dispatcher.php, line 272]
+2009-02-14 16:59:23 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [CORE\cake\libs\object.php, line 92]
+2009-02-14 16:59:23 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in [CORE\cake\libs\object.php, line 98]
+2009-02-14 16:59:23 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #3 is not an array in [CORE\cake\dispatcher.php, line 272]
+2009-02-14 16:59:35 Warning: Warning (2): in_array() [<a href='http://php.net/function.in-array'>function.in-array</a>]: Wrong datatype for second argument in [CORE\cake\libs\object.php, line 92]
+2009-02-14 16:59:35 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in [CORE\cake\libs\object.php, line 98]
+2009-02-14 16:59:35 Warning: Warning (2): array_merge() [<a href='http://php.net/function.array-merge'>function.array-merge</a>]: Argument #3 is not an array in [CORE\cake\dispatcher.php, line 272]
+2009-02-14 17:02:28 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:03:19 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:05:17 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:08:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:245) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:08:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:08:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:114) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:09:09 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:09:16 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:09:27 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:11:04 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:11:32 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 118 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:12:06 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:12:27 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:12:46 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:13:19 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:13:39 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:14:08 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:14:10 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:14:48 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:15:20 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:15:32 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:16:03 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 119 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:18:35 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:18:51 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:18:55 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:20:55 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:21:24 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:24:11 Warning: Warning (2): Missing argument 2 for UserProfilesController::check(), called in C:\CalendarNote\app\cake\libs\object.php on line 117 and defined in [APP\controllers\user_profiles_controller.php, line 53]
+2009-02-14 17:25:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:225) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:25:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:228) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:25:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:228) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:26:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:228) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-14 17:26:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\CalendarNote\app\cake\dispatcher.php:228) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-02-15 19:27:07 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 149 and defined in [APP\views\helpers\schedule_table.php, line 185]
+2009-02-15 19:27:53 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 149 and defined in [APP\views\helpers\schedule_table.php, line 185]
+2009-02-15 19:28:02 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 149 and defined in [APP\views\helpers\schedule_table.php, line 185]
+2009-02-15 19:28:12 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 149 and defined in [APP\views\helpers\schedule_table.php, line 185]
+2009-02-15 19:29:13 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 150 and defined in [APP\views\helpers\schedule_table.php, line 186]
+2009-02-15 19:30:43 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 150 and defined in [APP\views\helpers\schedule_table.php, line 186]
+2009-02-15 19:30:49 Warning: Warning (2): Missing argument 3 for ScheduleTableHelper::emptyTime(), called in C:\CalendarNote\app\calendarnote\views\helpers\schedule_table.php on line 149 and defined in [APP\views\helpers\schedule_table.php, line 185]

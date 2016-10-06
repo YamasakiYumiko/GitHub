@@ -1,0 +1,88 @@
+table.cake-sql-log {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+	font-family:verdana,helvetica,arial,sans-serif;
+	font-size:13px;
+}
+.cake-sql-log th {
+	background-color: #f2f2f2;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	text-align: center;
+}
+.cake-sql-log table tr td {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	vertical-align: top;
+	padding: 4px 8px;
+	text-align: left;
+}
+
+/* Debugging */
+#cakeControllerDump {
+	background-color: #003d4c;
+}
+#cakeControllerDump pre {
+	color: #000;
+	background: #f0f0f0;
+	padding: 1em;
+	font-family:verdana,helvetica,arial,sans-serif;
+	font-size:13px;
+}
+#cakeControllerDump h2 {
+	color: #e32;
+	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
+	font-size: 190%;
+	margin: 0.3em 0;
+	padding-top: 0.8em;
+}
+pre.cake-debug {
+	background: #ffcc00;
+	font-size: 120%;
+	line-height: 140%;
+	margin-top: 1em;
+	overflow: auto;
+	position: relative;
+}
+div.cake-stack-trace {
+	background: #fff;
+	border: 4px dotted #ffcc00;
+	color: #333;
+	margin: 0px;
+	padding: 6px;
+	font-size: 120%;
+	line-height: 140%;
+	overflow: auto;
+	position: relative;
+}
+div.cake-code-dump pre {
+	position: relative;
+	overflow: auto;
+}
+div.cake-stack-trace pre, div.cake-code-dump pre {
+	color: #000000;
+	background-color: #F0F0F0;
+	margin: 0px;
+	padding: 1em;
+	overflow: auto;
+}
+div.cake-code-dump pre, div.cake-code-dump pre code {
+	clear: both;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+div.cake-code-dump span.code-highlight {
+	background-color: #FFFF00;
+	padding: 4px;
+}

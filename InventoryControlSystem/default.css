@@ -1,0 +1,291 @@
+/* ----------------------------------------------------------
+    base
+---------------------------------------------------------- */
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#F9F8F6;
+	margin: 0;
+	padding: 0;
+	font-family: "ƒƒCƒŠƒI", Meiryo, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
+	color: #333;
+	text-align: left;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.cute  {
+	background-color: #c0e4ee;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, transparent),
+		color-stop(.5, #ffffff), to(#ffffff)),
+		-webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, transparent),
+		color-stop(.5, #ffffff), to(#ffffff));
+	-webkit-background-size: 5px 5px;
+}
+div.center{
+	text-align:center;
+}
+
+/*     ƒŠƒ“ƒNƒJƒ‰[Ý’è     */
+a {
+	color: #004B91;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #743399;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:active,
+a:hover {
+	color: #FF4B33;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+  	margin: 50px 0;
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+ul li {
+	list-style-type: none;
+	line-height: 150%;
+	font-size: 1.2em;
+}
+
+#wrapper {
+    position: relative;
+}
+#headWrap, #container {
+    margin: 0 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#container{
+    font-size: 75%;
+    margin-bottom: 20px;
+}
+
+.searchbox{
+	margin:10px 0;
+}
+
+.searchbox table {
+  width: auto;
+  border-spacing: 0;
+  font-size:14px;
+  border-collapse: collapse;
+  margin:10px 0;
+
+}
+.searchbox table th {
+	white-space: nowrap;
+	color: #fff;
+	padding: 8px 15px;
+	background: #038fc6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #038fc6 0%, #066dab 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #038fc6 0%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #038fc6 0%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#038fc6', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+	text-shadow:0 -1px 0 rgba(34,85,136,0.9);
+	font-weight: bold;
+	border:1px solid #84b2e0;
+	line-height: 120%;
+	text-align: center;
+}
+
+.searchbox table tr td {
+	padding: 8px 15px;
+	border: 1px solid #84b2e0;
+}
+.searchbox table td {
+ 	text-align: left;
+}
+
+.searchbox table tr td:last-child {
+	border-right: 1px solid #84b2e0;
+}
+.searchbox table tr {
+	text-align: center;
+	background: #fff;
+}
+.searchbox table tr:nth-child(2n+1) {
+	background: #f1f6fc;
+}
+
+.resultbox table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	line-height: 2.5em;
+
+}
+.resultbox table th {
+	white-space: nowrap;
+	padding: 8px 15px;
+	background: #ffd66e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffd66e 0%, #ffcb47 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffd66e 0%,#ffcb47 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffd66e 0%,#ffcb47 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd66e', endColorstr='#ffcb47',GradientType=0 ); /* IE6-9 */
+	color:#7f5300;
+	font-weight: bold;
+	border:1px solid #a5a69c;
+	line-height: 120%;
+	text-align: center;
+	font-size: 14px;
+}
+.resultbox table tr td {
+  border: 1px solid #a5a69c;
+  padding: 2px 8px;
+  white-space: nowrap;
+}
+.resultbox table tr {
+  background: #fff;
+}
+.resultbox table tr:nth-child(2n+1) {
+  background: #fff7db;
+}
+.resultbox table tr:hover {
+  background: #f4fe63;
+  cursor:pointer;
+}
+.resultbox button {
+	font-size: 75%;
+	padding: 1px 5px;
+}
+
+tr.disable{
+	background-color: #CFCFCF;
+}
+
+th.disable{
+	background-color: #F9F9B6;
+}
+
+td.disable{
+	background-color: #D6F9F8;
+}
+
+
+
+#content-wrap{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.login-form label {
+	text-align: center;
+    display: block;
+    margin: 7px 0;
+    font-size: 14px;
+    color: #989898;
+
+}
+
+.login-form fieldset {
+    display: block;
+	border: none;
+}
+
+#logo-title{
+    padding-top: 110px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.login-form #flashMessage{
+	list-style: none;
+    font-size: 12px;
+    color: red;
+}
+
+.login-form input[type=text], input[type=password], textarea {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    border: 1px solid #999;
+    background: #fbfbfb;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 0 rgba(0,0,0,.1) inset;
+    -moz-box-shadow: 0 4px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 4px 0 rgba(0,0,0,.1) inset;
+}
+
+.login-form .submit input[type=submit] {
+    width: 100%;
+    padding: 17px 40px;
+    margin: 40px 0;
+    font-size: 20px;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #4096ee;
+    color: #fff;
+    border: 0;
+    -webkit-box-shadow: inset 0 -5px 0 #4096ee;
+    -moz-box-shadow: inset 0 -5px 0 #4096ee;
+    box-shadow: inset 0 -5px 0 #4096ee;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+#loginForm >.message, .cake-error, .cake-debug, .notice, p.error, .error-message {
+    background: #ffcc00;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+    background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+    background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+    background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+    background-image: linear-gradient(top, #ffcc00, #E6B800);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 18px;
+    padding: 7px 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    color: #fff;
+    border: 0;
+    margin-bottom: 2px;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+
+
