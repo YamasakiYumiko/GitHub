@@ -48,7 +48,7 @@ class OrderController extends AppController{
     	$this->set('data', $data);
 
     	// View設定
-    	$this->render('Order/index');
+    	$this->render('index');
 
 
     }
