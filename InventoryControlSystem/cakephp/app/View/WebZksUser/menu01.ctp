@@ -10,7 +10,7 @@
 		<h1>メインメニュー</h1>
 		<h2>データ照会</h2>
 		<ul>
-			<li><?php echo $this->Html->link( '発注照会',array('controller' => 'Order','action' => 'entryList','target' => '_blank'));?></li>
+			<li><?php echo $this->Html->link( '発注照会',array('controller' => 'Order','action' => 'orderList','target' => '_blank'));?></li>
 			<li><a href="./purchase_s.php">仕入照会</a></li>
 			<li><a href="./transport_s.php">移動照会</a></li>
 			<li><a href="./current_stock_s.php">在庫照会</a></li>

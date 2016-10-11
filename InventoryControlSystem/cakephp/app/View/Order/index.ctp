@@ -1,7 +1,9 @@
-<h1>一覧表示</h1>
+<h1>発注照会</h1>
 <?php
+// js 読み込み
+echo $this->Html->script('WebZks', array('inline' => false));
 
-
+// 表示列
 $arr1 = array (
 		"row_no",
 		"slip_no",
@@ -148,8 +150,269 @@ $arr2 = array (
 		// ,"更新日時"
 		"倉庫名"
 );
-	echo "<div class ='resultbox'>";
 
+
+$today = date("Y-m-d", mktime(0, 0, 0, date("m"), date("d"), date("Y")));
+
+
+
+
+
+?>
+
+	<div id="topscreen">
+	<div id="search_box">
+		<div class="searchFormContainer container-fluid">
+
+			<?php echo $this->Form->create('Order',array('url'=> array('controller' => 'Order','action' => 'search'),'inputDefaults'=>array('label' => false, 'div' => false ,'hiddenField'=>false, 'legend'=>false, 'disabled'=>false, 'escape' => false))); ?>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>倉庫</label></div>
+					<div class="col-xs-12 col-sm-3 col-form">
+						<?php
+							echo $this->Form->input('warehouse_cd1',
+									array(  'type' => 'select',
+											'options' =>(Hash::extract($wlist, '{n}.0.warehouse_name')),
+											'name' =>'warehouse_cd1',
+											'onkeypress' => "return EnterFocusR(this, 'stocked_flg')",
+										)
+									);
+						?>
+					</div>
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>入庫状態</label></div>
+					<div class="col-xs-12 col-sm-4 col-form">
+						<?php
+							echo $this->Form->input('stocked_flg',
+									array(  'type' => 'radio',
+											'options' => array('All'=>'全て','0'=>'未入庫のみ'),
+											'name' =>'stocked_flg',
+											'value'=>'0',
+											'separator'=>"&nbsp;&nbsp;&nbsp;",
+											'onkeypress' => "return EnterFocus(this, 'slip_no1')",
+										)
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>伝票NO</label></div>
+					<div class="col-xs-12 col-sm-6 col-form">
+						<?php
+							echo $this->Form->input('slip_no1',
+									array(  'type' => 'text',
+											'name' =>'slip_no1',
+											'size' =>'12',
+											'maxlength' =>'12',
+											'onkeypress' => "return EnterFocus(this, 'slip_no2')",
+										)
+									);
+						?>
+						～
+						<?php
+							echo $this->Form->input('slip_no2',
+									array(  'type' => 'text',
+										  	'name' =>'slip_no2',
+											'size' =>'12',
+											'maxlength' =>'12',
+											'onkeypress' => "return EnterFocus(this, 'supplier_cd1')",
+										  )
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>仕入先CD</label></div>
+					<div class="col-xs-12 col-sm-2 col-form">
+						<?php
+							echo $this->Form->input('supplier_cd1',
+									array(  'type' => 'text',
+											'name' =>'supplier_cd1',
+// 											'value'=>$supplier_cd1,
+											'size' =>'10',
+											'maxlength' =>'10',
+											'onkeypress' => "return EnterFocusCD(this, 'supplier_name1', 'supplier_cd1', '', 10, true)",
+											'onblur'=>"return FocusCD(this, 'supplier_name1', 'supplier_cd1', '', 10, true)",
+										)
+									);
+						?>
+					</div>
+					<div class="col-xs-12 col-sm-3 searchformlabel"><label>仕入先名</label></div>
+					<div class="col-xs-12 col-sm-2 col-form">
+						<?php
+							echo $this->Form->input('supplier_name1',
+									array(  'type' => 'text',
+											'name' =>'supplier_name1',
+											'size' =>'12',
+											'maxlength' =>'12',
+											'onkeypress' => "return EnterFocus(this, 'item_cd1')",
+										)
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>商品CD</label></div>
+					<div class="col-xs-12 col-sm-4 col-form">
+						<?php
+							echo $this->Form->input('item_cd1',
+									array(  'type' => 'text',
+											'name' =>'item_cd1',
+// 											'value'=> $item_cd1,
+											'size' =>'7',
+											'maxlength' =>'7',
+											'onkeypress' => "return EnterFocusCD(this, 'item_cd2', 'item_cd1', 'D', 7, false)",
+											'onblur'=> "return FocusCD(this, 'item_cd2', 'item_cd1', 'D', 7, false)",
+										  )
+									);
+						?>
+						～
+						<?php
+							echo $this->Form->input('item_cd2',
+									array(  'type' => 'text',
+											'name' =>'item_cd2',
+// 											'value'=> $item_cd2,
+											'size' =>'7',
+											'maxlength' =>'7',
+											'onkeypress' => "return EnterFocusCD(this, 'item_name1', 'item_cd2', 'D', 7, false)",
+											'onblur'=>  "return FocusCD(this, 'item_name1', 'item_cd2', 'D', 7, false)",
+										  )
+									);
+						?>
+					</div>
+					<div class="col-xs-12 col-sm-1 searchformlabel"><label>商品名</label></div>
+					<div class="col-xs-12 col-sm-3 col-form">
+						<?php
+							echo $this->Form->input('item_name1',
+									array(  'type' => 'text',
+											'name' =>'item_name1',
+											'onkeypress' => "return EnterFocus(this, 'order_ymd1')",
+										  )
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>発注日</label></div>
+					<div class="col-xs-12 col-sm-6 col-form">
+						<?php
+							echo $this->Form->input('order_ymd1',
+									array(  'type' => 'text',
+											'name' =>'order_ymd1',
+// 											'value'=> $order_ymd1,
+											'size' =>'10',
+											'maxlength' =>'10',
+											'onkeypress' => "return EnterFocusDate(this, 'order_ymd2', 'order_ymd1', '')",
+											'onblur'=> "return FocusDate(this, 'order_ymd2', 'order_ymd1', '')",
+										  )
+									);
+						?>
+						～
+						<?php
+							echo $this->Form->input('order_ymd2',
+									array(  'type' => 'text',
+											'name' =>'order_ymd2',
+// 											'value'=> $order_ymd2,
+											'size' =>'10',
+											'maxlength' =>'10',
+											'onkeypress' => "return EnterFocusDate(this, 'stock_ymd1', 'order_ymd2', '')",
+											'onblur'=> "return FocusDate(this, 'stock_ymd1', 'order_ymd2', '')",
+										  )
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>入荷予定日</label></div>
+					<div class="col-xs-12 col-sm-6 col-form">
+						<?php
+							echo $this->Form->input('stock_ymd1',
+									array(  'type' => 'text',
+											'name' =>'stock_ymd1',
+// 											'value'=> $stock_ymd1,
+											'size' =>'10',
+											'maxlength' =>'10',
+											'onkeypress' => "return EnterFocusDate(this, 'stock_ymd2', 'stock_ymd1', '')",
+											'onblur'=> "return FocusDate(this, 'stock_ymd2', 'stock_ymd1', '')",
+										  )
+									);
+						?>
+						～
+						<?php
+							echo $this->Form->input('stock_ymd2',
+									array(  'type' => 'text',
+											'name' =>'stock_ymd2',
+// 											'value'=> $stock_ymd2,
+											'size' =>'10',
+											'maxlength' =>'10',
+											'onkeypress' => "return EnterFocusDate(this, 'jan_cd1', 'stock_ymd2', '')",
+											'onblur'=> "return FocusDate(this, 'jan_cd1', 'stock_ymd2', '')",
+										  )
+									);
+						?>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-2 searchformlabel"><label>JANCD</label></div>
+					<div class="col-xs-12 col-sm-2 ">
+						<?php
+							echo $this->Form->input('jan_cd1',
+									array(  'type' => 'text',
+											'name' =>'jan_cd1',
+// 											'value'=> $jan_cd1,
+											'size' =>'13',
+											'maxlength' =>'13',
+											'onkeypress' => "return EnterFocusCD(this, 'interval', 'jan_cd1', '', 13, false)",
+											'onblur'=> "return FocusCD(this, 'interval', 'jan_cd1', '', 13, false)",
+										  )
+									);
+						?>
+					</div>
+					<div class="col-xs-12 col-sm-4 searchformlabel"><label>表示件数</label></div>
+					<div class="col-xs-12 col-sm-1 ">
+						<?php
+							echo $this->Form->input('interval_num',
+									array(  'type' => 'select',
+											'options' => $interval,
+											'name' =>'interval_num',
+											'onkeypress' => "return EnterFocus(this, 'button')",
+										  )
+									);
+						?>
+					</div>
+					<div class="col-xs-12 col-sm-2 ">
+						<?php
+							echo $this->Form->end(
+									array(
+											'label' => '検索',
+											'id' =>'submit_button',
+											'div' => false,
+											'value' => "検索",
+											'escape' => true,
+											)
+									);
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<?php
+	echo "<div id ='pagenavi'>";
+	if($this->Paginator->counter(array('format'=>'%page%')) != '0') {
+		echo $this->Paginator->counter(array('format' => __('総件数  {:count}件')));
+		echo "&nbsp";
+		echo "ページ数：";
+		echo $this->Paginator->counter(array('format' => '%page% / %pages% '));
+	if($this->Paginator->counter(array('format'=>'%pages%')) != '1') {
+		echo $this->Paginator->prev('<< ' . '前へ', array(), null, array());
+		echo $this->Paginator->numbers(array('separator' => ''));
+		echo $this->Paginator->next('次へ' . ' >>', array(), null, array());
+		}
+	}
+	echo "</div>";
+
+	echo "<div class ='resultbox'>";
 	echo "<table>";
 	echo $this->Html->tableHeaders($arr2);
 	foreach($data as $result){
@@ -161,16 +424,6 @@ $arr2 = array (
 	}
 	echo "</table>";
 	echo "</div>";
-
-
-	echo $this->Html->url(array('controller' => 'Order', 'action' => 'entryList')) . '/page:1/sort:PaginateOrigin.slip_no/direction:asc';
-
-
-
-
-
-
-
 ?>
 
 

@@ -7,7 +7,7 @@
 <head>
 <title>ログイン画面</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../../default.css" />
+<?php 	echo $this->Html->css('webzks'); ?>
 </head>
 <body>
 
